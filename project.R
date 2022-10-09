@@ -5,7 +5,7 @@ library(ggplot2)
 library(ROCR)
 
 
-#After downloading the folder, please update the path to your directory
+#After downloading the folder, please update the path to your directory and download the atp.csv file from the link to the same subfolder
 path <- "data/atp.csv"
 df <- read.csv(path, stringsAsFactors=FALSE)
 
